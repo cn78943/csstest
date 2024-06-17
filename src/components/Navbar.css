@@ -1,0 +1,14 @@
+  .navmenu {
+      display: flex;
+      gap: 20px;
+      /* Adjust the gap value to change the space between icons */
+  }
+
+  .navmenu a {
+      color: inherit;
+      text-decoration: none;
+  }
+
+  .navmenu svg {
+      cursor: pointer;
+  }
