@@ -1,14 +1,14 @@
-// src/components/Sidebar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Sidebar.css'; // Sidebar 스타일을 위한 CSS 파일
+import './Sidebar.css';
 
 function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar-container">
         <div className="dashboard">
-          Dashboard
+          Dashboard 
+          {/* 이미지? 수정필요 */}
         </div>
         <br />
         <ul>

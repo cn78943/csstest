@@ -1,4 +1,3 @@
-// src/components/EditorPage.js
 import React, { useRef, useState, useEffect } from 'react';
 import Editor from '@monaco-editor/react';
 import { Button } from 'react-bootstrap';
@@ -14,7 +13,6 @@ function TestEditorPage() {
   const [problem, setProblem] = useState({ name: '', content: '', detail: '' });
 
   useEffect(() => {
-    // API 호출 예제
     axios.get('https://jsonplaceholder.typicode.com/posts/1')
       .then(response => {
         const data = response.data;

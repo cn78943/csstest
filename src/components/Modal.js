@@ -1,6 +1,5 @@
-// src/Modal.js
 import React from 'react';
-import './Modal.css'; // 모달 스타일을 위한 CSS 파일을 임포트합니다.
+import './Modal.css';
 
 function Modal({ message, onClose }) {
   return (

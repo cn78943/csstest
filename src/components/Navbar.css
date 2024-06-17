@@ -1,7 +1,6 @@
   .navmenu {
       display: flex;
       gap: 20px;
-      /* Adjust the gap value to change the space between icons */
   }
 
   .navmenu a {
